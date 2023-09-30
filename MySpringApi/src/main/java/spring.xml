@@ -10,11 +10,11 @@
         http://www.springframework.org/schema/context/spring-context-4.0.xsd">
         
 	<context:component-scan base-package="com.sihenni.MySpringApi" />
-	<bean id = "tyre" class = "com.sihenni.MySpringApi.Tyre">
-		<!-- <property name="brand" value="Dunlop"></property> -->
+	<!-- <bean id = "tyre" class = "com.sihenni.MySpringApi.Tyre">
+		<property name="brand" value="Dunlop"></property>
 		
 		<constructor-arg value = "GoodYear"></constructor-arg>
-	</bean>
+	</bean> -->
 	<!-- <bean id = "Vehicle" class="com.sihenni.MySpringApi.Car"></bean> -->
 	
 	

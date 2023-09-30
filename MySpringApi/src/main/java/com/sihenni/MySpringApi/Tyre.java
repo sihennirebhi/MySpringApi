@@ -1,16 +1,19 @@
 package com.sihenni.MySpringApi;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Tyre {
 	
 	private String brand;
 
 	
 	
-	public Tyre(String brand) {
-		super();
-		setBrand(brand);
-		//this.brand = brand; //u can use this instead of setter
-	}
+//	public Tyre(String brand) {
+//		super();
+//		setBrand(brand);
+//		//this.brand = brand; //u can use this instead of setter
+//	}
 
 	public String getBrand() {
 		return brand;
@@ -22,7 +25,7 @@ public class Tyre {
 
 	@Override
 	public String toString() {
-		return "Tyre [brand=" + brand + "]";
+		return "Tyre roule";
 	}
 	
 	
